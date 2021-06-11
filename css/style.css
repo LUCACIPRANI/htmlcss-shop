@@ -4,13 +4,17 @@
     box-sizing: border-box;
 }
 
+/* Inizio container  */
 .container{
-    width: 90%;   
+    width: 70%;   
     margin: 0 auto;
 }
+/* Fine container  */
 
+/* Inizio card features */
 .card{
     display: inline-block;
+    position: relative;
 
 }
 
@@ -18,3 +22,48 @@
     height: 350px;
     width: 250px;
 }
+
+.discount{
+    background-color: red;
+    color: white;
+    position: absolute;
+    bottom: 18%;
+    left: 0%;
+
+}
+
+.material {
+    background-color: green;
+    color: white;
+    position: absolute;
+    bottom: 18%;
+    left: 14%;
+}
+
+.sixth{
+    background-color: green;
+    color: white;
+    position: absolute;
+    bottom: 18%;
+    left: 0%;
+}
+
+.heart{
+    background-color: white;
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    top: 10%;
+    right: 0;
+
+}
+
+.strong{
+    font-weight: bold;
+}
+
+.text-red{
+    color: red;
+}
+
+/* Fine Card features */
