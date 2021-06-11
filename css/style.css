@@ -7,18 +7,19 @@
 /* Inizio container  */
 .container{
     width: 57%;   
-    margin: 30px auto;
+    margin: 25px auto;
 }
-/* Fine container  */
 
+/* Fine container  */
 /* Inizio card features */
 .card{
     display: inline-block;
     position: relative;
     font-family: 'Times New Roman', Times;
     padding: 2px;
+    font-size: 12px;
 }
-
+/* comando hover  */
 .card:hover .image{
     display: none;
 }
@@ -27,6 +28,8 @@
     display: inline;
 }
 
+/* fine comando hover  */
+/* images */
 .image{
     height: 350px;
     width: 250px;
@@ -44,20 +47,34 @@
     width: 250px;
 }
 
+/* fine images  */
+
 .discount{
+    position: absolute;
     background-color: red;
     color: white;
-    position: absolute;
+    width: 13%;
     bottom: 18%;
     left: 1%;
+
+    line-height: 100%;
+    padding: 2px;
+    text-align: center;
+    font-weight: 800;
 }
 
 .material {
+    position: absolute;
     background-color: green;
     color: white;
-    position: absolute;
     bottom: 18%;
     left: 16%;
+    width:30%;
+
+    line-height: 100%;
+    padding: 2px;
+    text-align: center;
+    font-weight: 800;
 }
 
 .sixth{
@@ -71,23 +88,19 @@
 .heart{
     background-color: white;
     position: absolute;
-    height: 40px;
-    width: 35px;
-    line-height: 40px;
+    height: 9%;
+    width: 15%;
+
+    line-height: 170%;
     text-align: center;
     font-size: 20px;
     top: 10%;
     right: 0;
 }
 
-.strong{
-    font-weight: bold;
-}
-
 .text-red {
     color: red;
-    font-size: 15px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .text-crossed{
