@@ -6,8 +6,8 @@
 
 /* Inizio container  */
 .container{
-    width: 70%;   
-    margin: 0 auto;
+    width: 57%;   
+    margin: 30px auto;
 }
 /* Fine container  */
 
@@ -15,10 +15,31 @@
 .card{
     display: inline-block;
     position: relative;
+    font-family: 'Times New Roman', Times;
+    padding: 2px;
+}
 
+.card:hover .image{
+    display: none;
+}
+
+.card:hover .nd-image{
+    display: inline;
 }
 
 .image{
+    height: 350px;
+    width: 250px;
+    display: inline;
+}
+
+.nd-image{
+    display: none;
+    height: 350px;
+    width: 250px;
+}
+
+#single-image{
     height: 350px;
     width: 250px;
 }
@@ -28,8 +49,7 @@
     color: white;
     position: absolute;
     bottom: 18%;
-    left: 0%;
-
+    left: 1%;
 }
 
 .material {
@@ -37,7 +57,7 @@
     color: white;
     position: absolute;
     bottom: 18%;
-    left: 14%;
+    left: 16%;
 }
 
 .sixth{
@@ -45,25 +65,34 @@
     color: white;
     position: absolute;
     bottom: 18%;
-    left: 0%;
+    left: 1%;
 }
 
 .heart{
     background-color: white;
     position: absolute;
-    height: 15px;
-    width: 15px;
+    height: 40px;
+    width: 35px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
     top: 10%;
     right: 0;
-
 }
 
 .strong{
     font-weight: bold;
 }
 
-.text-red{
+.text-red {
     color: red;
+    font-size: 15px;
+    font-weight: 400;
 }
 
+.text-crossed{
+    color: black;
+    text-decoration: line-through;
+    
+}
 /* Fine Card features */
